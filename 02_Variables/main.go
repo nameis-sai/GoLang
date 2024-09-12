@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const JWTToken string = "fksfhaksfasfksfh" //by specfiying Variable name stating with Caps conclude that its a Pulic one
+
 func main() {
 	var username string = "Sai Mohan"
 	fmt.Println(username)
@@ -38,4 +40,9 @@ func main() {
 
 	//no var style
 
+	numberOfServers := 30
+	fmt.Println(numberOfServers)
+
+	fmt.Println(JWTToken)
+	fmt.Printf("Type of JWTToken : %T \n", JWTToken)
 }
